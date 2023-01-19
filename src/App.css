@@ -1,0 +1,126 @@
+
+html{
+    margin-bottom: 0;
+}
+
+body{
+    background-color: rgb(118, 111, 111);
+    background-image:url(./pic/mario.png), url(./pic/mush.png), url('./pic/devil.png'), url('./pic/money.png'),url('./pic/outline.png'); 
+    background-size:200px 200px, 200px 200px,200px 200px, 200px 200px, 100% 100%; 
+    background-position:right bottom ,left  bottom, left  top  , right  top , left top; 
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+    margin-bottom: 0;
+}
+
+#minigame{
+    text-align: center;
+    font-size: 75px;
+    color: bisque;
+}
+
+p#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 490px;
+    height: 67px;
+    box-sizing: border-box;
+    background-color: brown;
+    margin: 0 auto 20px;
+    font:bold 25px Arail,sans-serif;
+    text-shadow: 3px 3px 4px black;
+}
+
+
+
+#box{
+    width: 800px; 
+    margin: 0 auto 50px;
+    border:2px solid bisque;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#btn>button{
+    padding: 20px 50px;
+    border:none;
+    color:white;
+    background-color:white ;
+    margin: 0 25px;
+    font:bold 20px Arail,sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+#btn>button:last-child{
+    background-color: #666;
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#container>h1{
+    font: bold 25px '나눔고딕',sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 4px black;
+
+}
+
+
+#container>figure{
+    padding-top: 20px;
+    width: 250px;
+    border: 1px solid bisque;
+}
+
+#container>figure>img{
+    background-color: rgb(119,98, 83);
+    width: 193px;
+    height: 203px;
+}
+
+#container>figure:last-child>img{
+    background-color: rgb(40,80,102);
+}
+
+
+#container>figure dl{
+    width: 83%;
+    margin: 0 auto;
+    background-color: rgb(128, 140, 140) ;
+    padding-top:5px;
+    padding-bottom: 13px;
+}
+#container>figure dt{
+    text-align: left;
+    color: white;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px black;
+    font-size:25px ;
+}   
+#container>figure dd{
+    color: yellow;
+    line-height: 20px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0;
+    text-shadow: 3px 3px 3px black;
+}
+
+

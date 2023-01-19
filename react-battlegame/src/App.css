@@ -1,0 +1,95 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url('./pic/mario.png');
+    background-position: right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+p#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 400px;
+    height: 67px;
+    box-sizing: border-box;
+    background-color: brown;
+    margin: 0 auto 20px;
+    font:bold 20px Arail,sans-serif;
+}
+
+
+
+#box{
+    width: 800px;
+    margin: 7% auto 50px;
+    border:2px solid #666;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+#btn{
+    display: flex;
+justify-content: center;
+    margin-bottom: 25px;
+}
+
+#btn>button{
+    padding: 20px 50px;
+    border:none;
+    color:#fff;
+    background-color: orange;
+    margin: 0 25px;
+    font:bold 20px Arail,sans-serif;
+}
+
+#btn>button:last-child{
+    background-color: #666;
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #666;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#container>h1{
+    font: bold 18px '나눔고딕',sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#container>figure{
+    padding-top: 20px;
+    width: 250px;
+    border: 1px solid #666;
+}
+
+#container>figure dl{
+    width: 80%;
+    margin: 0 auto;
+    background-color: /* rgb(42, 142, 165);  */ rgb(128, 140, 140);
+}
+#container>figure dt{
+    text-align: left;
+    color: white;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px black;
+
+}
+#container>figure dd{
+    color: yellow;
+    line-height: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+h1{
+    text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,41 @@
+
+        <h1 id="minigame">&lt;미니게임&gt;</h1>
+        <div id="box">
+            <p id="result">5판해서 총합이 이기는 게임</p>
+            <div id="btn">
+            <Button>start</Button>
+            <Button>reset</Button>
+            </div>
+
+        <div id="container">
+        <---1--->
+        <h1>{name}</h1>
+        <figure>
+        <img src={src} alt={alt} />
+        <figcaption>
+            <dl>
+                <dt>총합</dt>
+                <dd>{sum}</dd>
+                <dt>기록</dt>
+                <dd>{gameHistory.join('/')}</dd>
+            </dl>
+        </figcaption>
+        </figure>
+
+
+        <---2--->
+        <h1>{name}</h1>        
+        <figure>
+        <img src={src} alt={alt} />
+        <figcaption>
+            <dl>
+                <dt>총합</dt>
+                <dd>{sum}</dd>
+                <dt>기록</dt>
+                <dd>{gameHistory.join('/')}</dd>
+            </dl>
+        </figcaption>
+        </figure>
+
+        </div>
+        </div>
