@@ -4,13 +4,30 @@ html{
 }
 
 body{
-    background-color: rgb(118, 111, 111);
-    background-image:url(./pic/mario.png), url(./pic/mush.png), url('./pic/devil.png'), url('./pic/money.png'),url('./pic/outline.png'); 
-    background-size:200px 200px, 200px 200px,200px 200px, 200px 200px, 100% 100%; 
-    background-position:right bottom ,left  bottom, left  top  , right  top , left top; 
-    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat;
-    margin-bottom: 0;
+    /* background-color: ; */
+    background:#3e8c71 url('./pic/pattern.png') ;   
+    /* background-position:left top; 
+    background-size: 3%;
+    background-repeat:repeat;
+    margin-bottom: 0; */
+
 }
+
+/* body::before{
+    content: "";
+    background: url('./pic/pattern.png');
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+} */
+
+
+
+
+
 
 #minigame{
     text-align: center;
@@ -37,9 +54,10 @@ p#result{
 #box{
     width: 800px; 
     margin: 0 auto 50px;
-    border:2px solid bisque;
+    border:5px solid white;
     padding: 25px;
     box-sizing: border-box;
+    background-color: #186a4e;
 }
 
 
@@ -67,13 +85,13 @@ p#result{
 #container{
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid bisque;
+    border: 5px solid white;
     text-align: center;
     padding: 20px;
 }
 
 
-#container>h1{
+#container>div>h1{
     font: bold 25px '나눔고딕',sans-serif;
     color: white;
     margin-bottom: 20px;
@@ -82,38 +100,39 @@ p#result{
 }
 
 
-#container>figure{
+#container>div>figure{
     padding-top: 20px;
     width: 250px;
-    border: 1px solid bisque;
+    border: 5px solid white;
 }
 
-#container>figure>img{
+#container>div>figure>img{
     background-color: rgb(119,98, 83);
     width: 193px;
     height: 203px;
+    margin-bottom: 10px;
 }
 
-#container>figure:last-child>img{
+#container>div>figure:last-child>img{
     background-color: rgb(40,80,102);
 }
 
 
-#container>figure dl{
+#container>div>figure dl{
     width: 83%;
     margin: 0 auto;
-    background-color: rgb(128, 140, 140) ;
+    background-color: #c2f4b9;
     padding-top:5px;
     padding-bottom: 13px;
 }
-#container>figure dt{
+#container>div>figure dt{
     text-align: left;
     color: white;
     margin-bottom: 25px;
     text-shadow: 2px 2px 2px black;
     font-size:25px ;
 }   
-#container>figure dd{
+#container>div>figure dd{
     color: yellow;
     line-height: 20px;
     text-shadow: 1px 1px 2px black;
@@ -123,4 +142,6 @@ p#result{
     text-shadow: 3px 3px 3px black;
 }
 
-
+#container>div>figure>figcaption{
+    padding-bottom: 14px;
+}

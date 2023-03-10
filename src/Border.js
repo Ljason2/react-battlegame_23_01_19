@@ -11,8 +11,7 @@ function Border({name,color,gameHistory}){
 
     return(
         <>
-        <h1>{name}</h1>
-        
+        <div>        
         <figure>
         <Dics 
         color={color}
@@ -27,6 +26,8 @@ function Border({name,color,gameHistory}){
             </dl>
         </figcaption>
         </figure>
+        <h1>{name}</h1>
+        </div>
         </>
     )
 }
