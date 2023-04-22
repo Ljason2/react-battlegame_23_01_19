@@ -1,70 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 미니게임 프로젝트
 
-In the project directory, you can run:
+## :star:사이트 소개
+    A팀 B팀으로 나누어 5판 게임을 진행해서 총합이 큰 사람이 이기는 미니게임 웹 서비스 개발.
+## :date:일정
+    2023. 01. 12 ~ 2023. 01. 19
 
-### `npm start`
+## :computer:디바이스
+    PC
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :lips:개발언어
+- React, JavaScript, CSS3, HTML5
 
-### `npm test`
+<img src="https://jason-img.s3.amazonaws.com/mdoc/react.png" style="width:100px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/js.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/css.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/html5.png" style="width:56px">
+## :earth_americas:개발환경
+- VScode, npm, Node.js, AWS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://jason-img.s3.amazonaws.com/mdoc/vscode.png" style="width:90px"><img src="https://jason-img.s3.amazonaws.com/mdoc/npm2.png" style="width:60px; margin-left:3px;">
+<img src="https://jason-img.s3.amazonaws.com/mdoc/nodejs.png" style="width:91px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/aws.png" style="width:110px">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :link:배포링크
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 배포방식은 AWS: S3의 배포방식을 이용하였습니다.
+- [바로가기](https://jason-react-battlegame2-23-01-20.s3.amazonaws.com/index.html)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## :clipboard:프로젝트 설명
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ #### 미니게임 개발
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. 사용자가 start 를 누를 때마다 숫자가 기록되고 더해져 5 판 이후 총합을 비교해 결과보기를 누르면 승자가 나오게 하는 기능을 개발.
+    
+        -작성 예정
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Component 설계 및 제작
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. 홈페이지를 구성하는 Component 의 구조 설계, 개발 및 조합
 
-### Code Splitting
+        -작성 예정
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## :pencil2:피드백
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 느낀점
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- 기존의 웹 프레임워크는 각 요소의 의존성이 높아 재활용이 어렵다는 단점이 있었는데, 반면 컴포넌트는 재사용성이 용이하여 쉽게 화면을 구성할 수 있었다. 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
